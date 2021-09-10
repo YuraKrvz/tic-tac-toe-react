@@ -5,7 +5,7 @@ const styles = {
    wrapper: {
       margin: '20px auto',
       padding: '0 15px',
-      width: '685px',
+      maxWidth: '685px',
    },
    ['modal-btn']: {
       display: 'block',
@@ -23,12 +23,13 @@ const styles = {
       bottom: 0,
       left: 0,
       right:0,
-      width: '700px',
+      minWidth: '60px',
+      maxWidth: '740px',
       height: '400px',
       border: '10px solid rgba(168,85,193,0.9)',
       backgroundColor: 'rgb(84,95,125)',
-      margin: '90px 200px',
-      padding: '70px',
+      margin: '90px auto',
+      padding: '20px',
    },
    modal: {
       // position: 'relative',
