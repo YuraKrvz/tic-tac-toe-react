@@ -1,0 +1,27 @@
+.board-row{
+   width: 300px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.square{
+   min-height: 100px;
+   min-width: 100px;
+   background-color: rgb(84,95,125);
+   border: 1px solid transparent;
+}
+.wrapper-board{
+   display: flex;
+}
+.table-game{
+   min-width: 230px;
+   font-size: 40px;
+   margin-left: 10px;
+}
+.board-btn{
+      display: block;
+      margin: 10px auto;
+      background-color: rgb(84,95,125);
+      border: 2px solid rgba(168,85,193,0.9);
+      width: 200px;
+      cursor: pointer;
+}
